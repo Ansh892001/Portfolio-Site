@@ -1,0 +1,111 @@
+{
+  "profile": {
+    "name": "Alex Morgan",
+    "title": "Full Stack Developer",
+    "tagline": "Building elegant digital experiences with clean code and thoughtful design.",
+    "email": "hello@alexmorgan.dev",
+    "location": "San Francisco, CA",
+    "about": "I'm a passionate developer with 5+ years of experience crafting web applications that are fast, accessible, and delightful to use. I specialize in Angular, TypeScript, and cloud-native architectures. When I'm not coding, you'll find me contributing to open source or exploring new design patterns.",
+    "availability": "Open to opportunities",
+    "initials": "AM"
+  },
+  "stats": [
+    { "value": "5+", "label": "Years Exp." },
+    { "value": "40+", "label": "Projects" },
+    { "value": "15+", "label": "Clients" }
+  ],
+  "navLinks": [
+    { "label": "About", "href": "#about" },
+    { "label": "Skills", "href": "#skills" },
+    { "label": "Projects", "href": "#projects" },
+    { "label": "Experience", "href": "#experience" },
+    { "label": "Contact", "href": "#contact" }
+  ],
+  "skills": [
+    { "name": "Angular", "category": "Frontend", "level": 95 },
+    { "name": "TypeScript", "category": "Frontend", "level": 92 },
+    { "name": "React", "category": "Frontend", "level": 85 },
+    { "name": "Node.js", "category": "Backend", "level": 88 },
+    { "name": "PostgreSQL", "category": "Backend", "level": 82 },
+    { "name": "AWS", "category": "Cloud", "level": 78 },
+    { "name": "Docker", "category": "DevOps", "level": 80 },
+    { "name": "GraphQL", "category": "Backend", "level": 75 }
+  ],
+  "techTags": [
+    "Git",
+    "CI/CD",
+    "REST APIs",
+    "Microservices",
+    "Agile",
+    "Figma",
+    "Jest",
+    "Cypress",
+    "Redis",
+    "Kubernetes",
+    "Terraform",
+    "Linux",
+    "Nginx",
+    "Webpack",
+    "RxJS"
+  ],
+  "projects": [
+    {
+      "title": "TaskFlow Pro",
+      "description": "A collaborative project management platform with real-time updates, kanban boards, and team analytics.",
+      "tags": ["Angular", "Node.js", "WebSocket", "PostgreSQL"],
+      "link": "#",
+      "github": "#",
+      "gradient": "linear-gradient(135deg, #6366f1, #8b5cf6)"
+    },
+    {
+      "title": "DevMetrics Dashboard",
+      "description": "Engineering analytics dashboard tracking deployment frequency, lead time, and code quality metrics.",
+      "tags": ["React", "D3.js", "GraphQL", "AWS"],
+      "link": "#",
+      "github": "#",
+      "gradient": "linear-gradient(135deg, #06b6d4, #3b82f6)"
+    },
+    {
+      "title": "EcoTrack API",
+      "description": "RESTful API for carbon footprint tracking with ML-powered recommendations and sustainability scoring.",
+      "tags": ["Python", "FastAPI", "MongoDB", "Docker"],
+      "link": "#",
+      "github": "#",
+      "gradient": "linear-gradient(135deg, #10b981, #059669)"
+    },
+    {
+      "title": "PixelForge Studio",
+      "description": "Browser-based design tool for creating responsive UI mockups with component libraries and export options.",
+      "tags": ["Angular", "Canvas API", "Firebase", "SCSS"],
+      "link": "#",
+      "github": "#",
+      "gradient": "linear-gradient(135deg, #f59e0b, #ef4444)"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Senior Frontend Engineer",
+      "company": "TechNova Inc.",
+      "period": "2022 — Present",
+      "description": "Lead development of customer-facing Angular applications serving 500K+ users. Architected micro-frontend strategy reducing deploy times by 60%."
+    },
+    {
+      "role": "Full Stack Developer",
+      "company": "StartupLab",
+      "period": "2020 — 2022",
+      "description": "Built MVP products from scratch using Angular, Node.js, and AWS. Implemented CI/CD pipelines and automated testing achieving 90% code coverage."
+    },
+    {
+      "role": "Junior Developer",
+      "company": "DigitalCraft Agency",
+      "period": "2019 — 2020",
+      "description": "Developed responsive websites and e-commerce solutions. Collaborated with design teams to deliver pixel-perfect implementations."
+    }
+  ],
+  "socialLinks": [
+    { "name": "GitHub", "url": "https://github.com", "icon": "github" },
+    { "name": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" },
+    { "name": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
+    { "name": "Email", "url": "mailto:hello@alexmorgan.dev", "icon": "email" }
+  ]
+}

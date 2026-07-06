@@ -1,0 +1,54 @@
+@if (data(); as portfolio) {
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual">
+          <div class="avatar-wrapper">
+            <div class="avatar-ring"></div>
+            <div class="avatar">
+              <span class="avatar-initials">{{ portfolio.profile.initials }}</span>
+            </div>
+            <div class="avatar-decoration">
+              <span class="deco-line"></span>
+              <span class="deco-dot"></span>
+            </div>
+          </div>
+          <div class="stats">
+            @for (stat of portfolio.stats; track stat.label) {
+              <div class="stat">
+                <span class="stat-number">{{ stat.value }}</span>
+                <span class="stat-label">{{ stat.label }}</span>
+              </div>
+            }
+          </div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-label">About Me</span>
+          <h2 class="section-title">
+            Turning ideas into
+            <span class="gradient-text">digital reality</span>
+          </h2>
+          <p class="about-text">{{ portfolio.profile.about }}</p>
+
+          <div class="about-details">
+            <div class="detail">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/><circle cx="12" cy="10" r="3"/>
+              </svg>
+              <span>{{ portfolio.profile.location }}</span>
+            </div>
+            <div class="detail">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 4L12 13 2 4"/>
+              </svg>
+              <span>{{ portfolio.profile.email }}</span>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn-primary">Download Resume</a>
+        </div>
+      </div>
+    </div>
+  </section>
+}

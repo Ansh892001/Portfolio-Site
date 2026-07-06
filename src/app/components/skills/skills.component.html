@@ -1,0 +1,35 @@
+@if (data(); as portfolio) {
+  <section class="section skills" id="skills">
+    <div class="container">
+      <div class="skills-header">
+        <span class="section-label">Skills</span>
+        <h2 class="section-title">Technologies I work with</h2>
+        <p class="section-subtitle">
+          A curated stack of tools and frameworks I use to build scalable,
+          performant applications.
+        </p>
+      </div>
+
+      <div class="skills-grid">
+        @for (skill of portfolio.skills; track skill.name) {
+          <div class="skill-card">
+            <div class="skill-top">
+              <span class="skill-name">{{ skill.name }}</span>
+              <span class="skill-category">{{ skill.category }}</span>
+            </div>
+            <div class="skill-bar">
+              <div class="skill-fill" [style.width.%]="skill.level"></div>
+            </div>
+            <span class="skill-level">{{ skill.level }}%</span>
+          </div>
+        }
+      </div>
+
+      <div class="tech-tags">
+        @for (tag of portfolio.techTags; track tag) {
+          <span class="tech-tag">{{ tag }}</span>
+        }
+      </div>
+    </div>
+  </section>
+}
