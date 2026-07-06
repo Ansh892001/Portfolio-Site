@@ -1,18 +1,17 @@
 {
   "profile": {
-    "name": "Alex Morgan",
-    "title": "Full Stack Developer",
+    "name": "Ansh Parikh",
+    "title": "Senior Software Engineer",
     "tagline": "Building elegant digital experiences with clean code and thoughtful design.",
-    "email": "hello@alexmorgan.dev",
-    "location": "San Francisco, CA",
-    "about": "I'm a passionate developer with 5+ years of experience crafting web applications that are fast, accessible, and delightful to use. I specialize in Angular, TypeScript, and cloud-native architectures. When I'm not coding, you'll find me contributing to open source or exploring new design patterns.",
+    "email": "anshparikh2001@gmail.com",
+    "location": "Ahemdabad, Gujarat",
+    "about": "I'm a passionate developer with 3+ years of experience crafting web applications that are fast, accessible, and delightful to use. I specialize in Angular, TypeScript, and cloud-native architectures. When I'm not coding, you'll find me contributing to open source or exploring new design patterns.",
     "availability": "Open to opportunities",
-    "initials": "AM"
+    "initials": "AP"
   },
   "stats": [
-    { "value": "5+", "label": "Years Exp." },
-    { "value": "40+", "label": "Projects" },
-    { "value": "15+", "label": "Clients" }
+    { "value": "3+", "label": "Years Exp." },
+    { "value": "3", "label": "Projects" }
   ],
   "navLinks": [
     { "label": "About", "href": "#about" },
@@ -24,8 +23,9 @@
   "skills": [
     { "name": "Angular", "category": "Frontend", "level": 95 },
     { "name": "TypeScript", "category": "Frontend", "level": 92 },
-    { "name": "React", "category": "Frontend", "level": 85 },
-    { "name": "Node.js", "category": "Backend", "level": 88 },
+    { "name": "Python", "category": "Frontend", "level": 85 },
+    { "name": "Golang", "category": "Frontend", "level": 85 },
+    { "name": ".Net", "category": "Backend", "level": 88 },
     { "name": "PostgreSQL", "category": "Backend", "level": 82 },
     { "name": "AWS", "category": "Cloud", "level": 78 },
     { "name": "Docker", "category": "DevOps", "level": 80 },
@@ -94,18 +94,15 @@
       "company": "StartupLab",
       "period": "2020 — 2022",
       "description": "Built MVP products from scratch using Angular, Node.js, and AWS. Implemented CI/CD pipelines and automated testing achieving 90% code coverage."
-    },
-    {
-      "role": "Junior Developer",
-      "company": "DigitalCraft Agency",
-      "period": "2019 — 2020",
-      "description": "Developed responsive websites and e-commerce solutions. Collaborated with design teams to deliver pixel-perfect implementations."
     }
   ],
   "socialLinks": [
     { "name": "GitHub", "url": "https://github.com", "icon": "github" },
     { "name": "LinkedIn", "url": "https://linkedin.com", "icon": "linkedin" },
-    { "name": "Twitter", "url": "https://twitter.com", "icon": "twitter" },
-    { "name": "Email", "url": "mailto:hello@alexmorgan.dev", "icon": "email" }
+    {
+      "name": "Email",
+      "url": "mailto:anshparikh2001@gmail.com",
+      "icon": "email"
+    }
   ]
 }
