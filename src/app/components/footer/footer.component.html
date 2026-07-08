@@ -1,28 +1,28 @@
 @if (data(); as portfolio) {
-  <footer class="footer">
-    <div class="container footer-inner">
-      <div class="footer-brand">
-        <a href="#" class="logo">
-          <span class="logo-bracket">&lt;</span>
-          <span class="logo-text">{{ portfolio.profile.initials }}</span>
-          <span class="logo-bracket">/&gt;</span>
-        </a>
-        <p class="footer-tagline">{{ portfolio.profile.tagline }}</p>
-      </div>
-
-      <div class="footer-links">
-        @for (link of portfolio.navLinks; track link.href) {
-          <a [href]="link.href">{{ link.label }}</a>
-        }
-      </div>
+<footer class="footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="#" class="logo">
+        <span class="logo-bracket">&lt;</span>
+        <span class="logo-text">{{ portfolio.profile.initials }}</span>
+        <span class="logo-bracket">/&gt;</span>
+      </a>
+      <p class="footer-tagline">{{ portfolio.profile.tagline }}</p>
     </div>
 
-    <div class="container footer-bottom">
-      <p>&copy; {{ year }} {{ portfolio.profile.name }}. All rights reserved.</p>
-      <p class="footer-built">
-        Built with
-        <span class="gradient-text">Angular</span>
-      </p>
+    <div class="footer-links">
+      @for (link of portfolio.navLinks; track link.href) {
+      <a [href]="link.href" (click)="navigate($event, link.href)">{{ link.label }}</a>
+      }
     </div>
-  </footer>
+  </div>
+
+  <div class="container footer-bottom">
+    <p>&copy; {{ year }} {{ portfolio.profile.name }}. All rights reserved.</p>
+    <p class="footer-built">
+      Built with
+      <span class="gradient-text">Angular</span>
+    </p>
+  </div>
+</footer>
 }

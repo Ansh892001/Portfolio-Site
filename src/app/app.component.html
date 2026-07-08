@@ -2,31 +2,31 @@
 <main>
   <app-hero />
 
-  @defer (on viewport) {
+  @defer (on viewport; when sectionNav.shouldLoad(); prefetch on idle) {
   <app-about />
   } @placeholder {
   <div class="defer-placeholder"></div>
   }
 
-  @defer (on viewport) {
+  @defer (on viewport; when sectionNav.shouldLoad(); prefetch on idle) {
   <app-skills />
   } @placeholder {
   <div class="defer-placeholder"></div>
   }
 
-  @defer (on viewport) {
+  @defer (on viewport; when sectionNav.shouldLoad(); prefetch on idle) {
   <app-projects />
   } @placeholder {
   <div class="defer-placeholder"></div>
   }
 
-  @defer (on viewport) {
+  @defer (on viewport; when sectionNav.shouldLoad(); prefetch on idle) {
   <app-experience />
   } @placeholder {
   <div class="defer-placeholder"></div>
   }
 
-  @defer (on viewport) {
+  @defer (on viewport; when sectionNav.shouldLoad(); prefetch on idle) {
   <app-contact />
   } @placeholder {
   <div class="defer-placeholder"></div>

@@ -1,4 +1,5 @@
-import { Component } from "@angular/core";
+import { Component, inject } from "@angular/core";
+import { SectionNavService } from "./services/section-nav.service";
 import { HeaderComponent } from "./components/header/header.component";
 import { HeroComponent } from "./components/hero/hero.component";
 import { AboutComponent } from "./components/about/about.component";
@@ -24,4 +25,6 @@ import { FooterComponent } from "./components/footer/footer.component";
   templateUrl: "./app.component.html",
   styleUrl: "./app.component.scss",
 })
-export class AppComponent {}
+export class AppComponent {
+  readonly sectionNav = inject(SectionNavService);
+}
